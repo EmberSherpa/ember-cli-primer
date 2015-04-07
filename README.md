@@ -1,6 +1,6 @@
-# Ember-cli-primer
+# ember-cli-primer
 
-This README outlines the details of collaborating on this Ember addon.
+Ember Addon wrapper for [GitHub's Primer CSS toolkit](http://primercss.io/).
 
 ## Installation
 

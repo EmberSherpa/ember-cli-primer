@@ -1,7 +1,7 @@
 {
   "name": "ember-cli-primer",
-  "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "version": "0.1.0",
+  "description": "Ember Addon wrapper for GitHub Primer",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -11,7 +11,7 @@
     "build": "ember build",
     "test": "ember try:testall"
   },
-  "repository": "",
+  "repository": "https://github.com/embersherpa/ember-cli-primer.git",
   "engines": {
     "node": ">= 0.10.0"
   },
@@ -37,7 +37,10 @@
     "ember-addon"
   ],
   "dependencies": {
-    "ember-cli-babel": "^5.0.0"
+    "broccoli-merge-trees": "^0.2.1",
+    "broccoli-stew": "^0.2.1",
+    "ember-cli-babel": "^5.0.0",
+    "primer": "git://github.com/primer/primer"
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
